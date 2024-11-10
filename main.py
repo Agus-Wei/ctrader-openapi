@@ -11,13 +11,11 @@ from twisted.internet import reactor
 
 if __name__ == "__main__":
     currentAccountId = 41428754
+    appClientId = ""
+    appClientSecret = ""
+    accessToken = ""
     hostType = "Demo"
     hostType = hostType.lower()
-
-    appClientId = "11952_cukFsQKaloXkbJIP6Qi95k9jZ4Dqux1ehviD8Xm4rf4NP70Nr6"
-    appClientSecret = "5100bMPPdKnTIkVf4nNdgP752oxzggUgbdd3hKWLr3hldHP5He"
-
-    accessToken = "7NYgAg33OeHobiiWVTVEafIIZUvD019QVIdHYTGoOdI"
 
     client = Client(
         EndPoints.PROTOBUF_LIVE_HOST
